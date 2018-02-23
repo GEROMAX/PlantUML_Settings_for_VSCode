@@ -1,0 +1,5 @@
+{
+    //PlantUMLの描画サーバをローカルのドッカーコンテナに指定
+    "plantuml.server": "http://localhost:13080/",
+    "plantuml.render": "PlantUMLServer",
+}

@@ -1,0 +1,31 @@
+
+@startuml
+title シーケンス図
+hogehogeクライアント -> hogehogeサーバ: リクエストだよ
+hogehogeサーバ --> hogehogeクライアント: レスポンスだよ
+@enduml
+
+@startuml
+title クラス図
+Class BaseClass {
+    +string PublicValue
+    -string PrivateValue
+    +int Gethashcode()
+    -int Createhashcode()
+}
+Class ImpleClass {
+    +string Name
+    +string Who()
+}
+BaseClass <|-- ImpleClass
+@enduml
+
+@startuml
+title tips
+legend
+    リポ：https://github.com/qjebbs/vscode-plantuml
+    仕様：http://plantuml.com/
+    整形：alt + shift + f
+    表示：alt + d
+end legend
+@enduml
